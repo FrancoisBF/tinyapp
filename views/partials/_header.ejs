@@ -1,0 +1,12 @@
+
+<h2>Tiny app</h2>
+<p>
+
+<% if (user_id) { %>
+  <%= username %>
+  <a href="/logout">logout</a>
+<% } else {  %>
+  <a href="/login">Login Page</a>
+  <a href="/register">Register</a>
+<% } %>
+</p>
